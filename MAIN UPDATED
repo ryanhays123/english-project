@@ -5,150 +5,149 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>English I Writing Resource</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; line-height: 1.6; color: #333; }
-    header { background: #00539C; color: #fff; padding: 1rem 2rem; position: sticky; top: 0; }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; }
+    header { background: #00539C; color: #fff; padding: 1rem; text-align: center; }
     header h1 { margin: 0; }
-    nav ul { list-style: none; padding: 0; display: flex; gap: 1rem; margin-top: 0.5rem; }
+    nav { background: #004080; }
+    nav ul { list-style: none; margin: 0; padding: 0.5rem; display: flex; justify-content: center; }
+    nav li { margin: 0 1rem; }
     nav a { color: #fff; text-decoration: none; font-weight: bold; }
     nav a:hover { text-decoration: underline; }
-    main { padding: 2rem; max-width: 1000px; margin: auto; }
-    section { margin-bottom: 3rem; }
+    main { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+    section { margin-bottom: 2rem; }
     section h2 { border-bottom: 2px solid #00539C; padding-bottom: 0.5rem; }
-    .term, .concept, .tip, .example { margin-bottom: 1rem; }
-    .term h3, .concept h3 { margin: 0.5rem 0 0.2rem; }
+    .term-list ul { list-style: disc; margin-left: 1.5rem; }
+    .tip, .example { margin-bottom: 1rem; }
     footer { background: #f4f4f4; text-align: center; padding: 1rem; font-size: 0.9rem; }
   </style>
 </head>
 <body>
   <header>
     <h1>English I Writing Resource</h1>
-    <nav>
-      <ul>
-        <li><a href="#overview">Overview</a></li>
-        <li><a href="#curriculum">Curriculum</a></li>
-        <li><a href="#key-terms">Key Terms</a></li>
-        <li><a href="#tips">Tips</a></li>
-        <li><a href="#examples">Examples</a></li>
-      </ul>
-    </nav>
   </header>
+  <nav>
+    <ul>
+      <li><a href="#information">Information</a></li>
+      <li><a href="#key-terms">Key Terms</a></li>
+      <li><a href="#tips">Tips</a></li>
+      <li><a href="#examples">Examples</a></li>
+    </ul>
+  </nav>
   <main>
-    <!-- UPDATED OVERVIEW -->
-    <section id="overview">
-      <h2>Overview</h2>
-      <p>This is my website on everything from key terms to tips and examples for all the writing I have completed in English I this year.</p>
-    </section>
-
-    <section id="curriculum">
-      <h2>Curriculum</h2>
-      <div class="concept">
-        <h3>Trimester 1</h3>
-        <strong>Unit 1: The Power of Words</strong>
-        <p><em>Milestone Task:</em> Poetry Collection</p>
-        <p><em>Concepts & Skills:</em> Imagery, Simile & Metaphor, Theme, Symbolism, Allusion, Irony, Static vs. Dynamic Characters, Conflict, Characterization, Foreshadowing, Narration Types, Personification; Sound Devices, Enjambment, End Stop, End Rhyme, Repetition; Annotating Texts; Creative Expression.</p>
-
-        <strong>Unit 2: Silence and Voice</strong>
-        <p><em>Milestone Task:</em> Literary Analysis Essay (Character Comparison)</p>
-        <p><em>Concepts & Skills:</em> Characterization (Direct/Indirect), Static vs. Dynamic & Round vs. Flat Characters, Hero’s Journey, Cultural Context, Thesis Creation, Quote Integration, Compare & Contrast, Annotating Texts, Discussion Cycle.</p>
-      </div>
-
-      <div class="concept">
-        <h3>Trimester 2</h3>
-        <strong>Unit 3: Risks and Challenges</strong>
-        <p><em>Milestone Task:</em> Speech Using Rhetorical Appeals</p>
-        <p><em>Concepts & Skills:</em> Rhetorical Appeals (Ethos, Pathos, Logos), Outlining, Extemporaneous Speaking, Performance Skills.</p>
-
-        <strong>Unit 4: The Hero’s Journey (The Odyssey)</strong>
-        <p><em>Milestone Task:</em> Literary Analysis Essay</p>
-        <p><em>Concepts & Skills:</em> Epic Form, Epic Hero, Hero’s Journey, Symbols, Cultural Significance, Video Project.</p>
-      </div>
-
-      <div class="concept">
-        <h3>Trimester 3</h3>
-        <strong>Unit 5: Shadows and Echoes (Gothic Novel)</strong>
-        <p><em>Milestone Task:</em> Short Story with Frame Narrative</p>
-        <p><em>Concepts & Skills:</em> Gothic Fiction Characteristics, Mood, Imagery, Discussion Skills.</p>
-
-        <strong>Unit 6: Ambition and Downfall (Shakespearean Tragedy)</strong>
-        <p><em>Milestone Tasks:</em> Timed In-Class Essay; Scene Performance</p>
-        <p><em>Concepts & Skills:</em> Shakespearean Tragedy, Tragic Hero, Dramatic Interpretation, Imagery, Symbols, Annotation Flashcards.</p>
-      </div>
+    <section id="information">
+      <h2>Information</h2>
+      <p>This site collects all the writing essentials we covered in English I: key terms organized by unit, practical writing tips, and examples from our assignments. Use the navigation to jump to whatever you need.</p>
     </section>
 
     <section id="key-terms">
       <h2>Key Terms</h2>
-      <!-- General Literary Terms -->
-      <div class="term"><h3>Imagery</h3><p>Descriptive language appealing to the senses to build vivid pictures.</p></div>
-      <div class="term"><h3>Simile</h3><p>Comparison using “like” or “as.” Example: She was as brave as a lion.</p></div>
-      <div class="term"><h3>Metaphor</h3><p>Direct comparison without “like” or “as.” Example: Time is a thief.</p></div>
-      <div class="term"><h3>Theme</h3><p>The central message or insight of a text.</p></div>
-      <div class="term"><h3>Symbolism</h3><p>Use of objects or actions to represent ideas. Example: The green light in The Odyssey.</p></div>
-      <div class="term"><h3>Allusion</h3><p>Reference to a well-known person, place, event, literary work, or work of art.</p></div>
-      <div class="term"><h3>Irony</h3><p>A contrast between expectation and reality.</p></div>
-      <div class="term"><h3>Static & Dynamic Characters</h3><p>Static characters do not change; dynamic characters undergo significant growth.</p></div>
-      <div class="term"><h3>Conflict</h3><p>The struggle between opposing forces in a story.</p></div>
-      <div class="term"><h3>Characterization</h3><p>Methods authors use to develop characters: direct description and indirect (actions/dialogue).</p></div>
-      <div class="term"><h3>Foreshadowing</h3><p>Hints or clues about what will happen later in the story.</p></div>
-      <div class="term"><h3>Types of Narration</h3><p>First-person, Third-person Limited, Third-person Omniscient.</p></div>
-      <div class="term"><h3>Personification</h3><p>Attribution of human qualities to non-human things. Example: The wind whispered.</p></div>
-      <!-- Poetry-Specific Terms -->
-      <div class="term"><h3>Sound Devices</h3><p>Techniques like alliteration, assonance, consonance.</p></div>
-      <div class="term"><h3>Enjambment</h3><p>When a line of poetry continues without a pause to the next line.</p></div>
-      <div class="term"><h3>End Stop</h3><p>A pause at the end of a line of poetry, often marked by punctuation.</p></div>
-      <div class="term"><h3>End Rhyme</h3><p>Rhyming words at the ends of lines.</p></div>
-      <div class="term"><h3>Repetition</h3><p>Repeated words or phrases for emphasis.</p></div>
+      <div class="term-list">
+        <h3>Unit 1: The Power of Words</h3>
+        <ul>
+          <li>Plot</li>
+          <li>Point of View</li>
+          <li>Metaphor</li>
+          <li>Indirect Characterization</li>
+          <li>Speaker</li>
+          <li>Unreliable Narrator</li>
+          <li>Direct Characterization</li>
+          <li>Simile</li>
+        </ul>
+        <h3>Unit 2: Silence and Voice</h3>
+        <ul>
+          <li>Types of Characters</li>
+          <li>Point of View</li>
+          <li>Thesis Statement</li>
+          <li>Indirect Characterization</li>
+          <li>Theme</li>
+          <li>Quote Integration</li>
+          <li>Direct Characterization</li>
+          <li>Imagery</li>
+          <li>Narrative Structures</li>
+        </ul>
+        <h3>Unit 3: Risks and Challenges</h3>
+        <ul>
+          <li>Ethos</li>
+          <li>Body Language</li>
+          <li>Speech Structure</li>
+          <li>Pathos</li>
+          <li>Voice</li>
+          <li>Logos</li>
+          <li>Audience</li>
+        </ul>
+        <h3>Unit 4: The Hero's Journey</h3>
+        <ul>
+          <li>Hero's Journey</li>
+          <li>Invocation of the Muse</li>
+          <li>Divine Intervention</li>
+          <li>Epic Poem</li>
+          <li>Epithet</li>
+          <li>Symbols</li>
+          <li>Epic Hero</li>
+          <li>Epic Similes and Metaphors</li>
+          <li>Repetition</li>
+        </ul>
+        <h3>Unit 5: Shadows and Echoes</h3>
+        <ul>
+          <li>Frame Story</li>
+          <li>Conflict</li>
+          <li>Symbolism</li>
+          <li>Mystery</li>
+          <li>Imagery</li>
+          <li>Historical Context</li>
+          <li>Mood</li>
+          <li>Protagonist and Antagonist</li>
+          <li>Repetition</li>
+        </ul>
+        <h3>Unit 6: Ambition and Downfall</h3>
+        <ul>
+          <li>Tragic Drama</li>
+          <li>Hamartia</li>
+          <li>Foil Characters</li>
+          <li>Tragic Hero</li>
+          <li>Classical, Literary, and Biblical Allusions</li>
+          <li>Aside</li>
+          <li>Tragic Flaw</li>
+          <li>Stage Directions</li>
+          <li>Soliloquy</li>
+        </ul>
+      </div>
     </section>
 
     <section id="tips">
-      <h2>Writing Tips</h2>
-      <ul>
-        <li class="tip">Plan with an outline: thesis, main points, evidence, and structure.</li>
-        <li class="tip">Craft a clear thesis statement to guide your argument.</li>
-        <li class="tip">Use topic sentences at the start of each paragraph.</li>
-        <li class="tip">Integrate quotes smoothly: introduce, cite, and explain relevance.</li>
-        <li class="tip">Show, don’t tell: use concrete details and sensory language.</li>
-        <li class="tip">Vary sentence structures for rhythm and readability.</li>
-        <li class="tip">Revise and proofread: check grammar, punctuation, and style.</li>
-        <li class="tip">Practice timed writing to prepare for in-class essays.</li>
-      </ul>
+      <h2>Tips</h2>
+      <div class="tip"><strong>Plan First:</strong> Create an outline with your thesis, main points, and evidence.</div>
+      <div class="tip"><strong>Show, Don’t Tell:</strong> Use concrete details and sensory language.</div>
+      <div class="tip"><strong>Quote Integration:</strong> Introduce, quote, then explain relevance.</div>
+      <div class="tip"><strong>Vary Sentence Structure:</strong> Mix simple, compound, and complex sentences.</div>
+      <div class="tip"><strong>Proofread:</strong> Check grammar, punctuation, and MLA formatting.</div>
     </section>
 
     <section id="examples">
       <h2>Examples</h2>
       <div class="example">
-        <h3>Poetry Collection Excerpt</h3>
-        <p>"Beneath the silver moon's pale glow<br>
-           I wandered roads I used to know."</p>
-        <p>Shows imagery, end rhyme (glow/know), and enjambment.</p>
+        <h3>Thesis Example</h3>
+        <p>"In <em>Macbeth</em>, Shakespeare uses irony to reveal the corrosive effects of unchecked ambition on the human soul."</p>
       </div>
       <div class="example">
-        <h3>Literary Analysis Thesis (Unit 2)</h3>
-        <p>"In <em>The Odyssey</em>, Odysseus’s encounter with the Cyclops demonstrates both his cunning and the limits of mortal agency, highlighting the tension between human will and divine power."</p>
+        <h3>Topic Sentence Example</h3>
+        <p>"The episodic structure of <em>The Odyssey</em> highlights Odysseus’s growth as both a leader and individual through a series of trials."</p>
       </div>
       <div class="example">
-        <h3>Rhetorical Appeals Outline (Unit 3)</h3>
-        <p><strong>Introduction:</strong> Hook + Thesis<br>
-           <strong>Ethos:</strong> "As a researcher..."<br>
-           <strong>Pathos:</strong> Personal anecdote about risk.<br>
-           <strong>Logos:</strong> Statistics on challenge outcomes.<br>
-           <strong>Conclusion:</strong> Call to action.</p>
+        <h3>Poetry Excerpt</h3>
+        <p>"Beneath the silver moon’s pale glow I wandered roads I used to know." <em>(Imagery, end rhyme, enjambment)</em></p>
       </div>
       <div class="example">
-        <h3>Odyssey Analysis Excerpt (Unit 4)</h3>
-        <p>"When Odysseus blinds Polyphemus, his strategic use of disguise underscores the epic theme of appearance versus reality (Book 9, lines 350–360)."</p>
-      </div>
-      <div class="example">
-        <h3>Short Story Opening (Unit 5)</h3>
-        <p>"Rain tapped against the old mansion’s windows as Clara’s lantern cast tall shadows down the hallway. In her hand, the locket throbbed with memories she could not escape."</p>
-      </div>
-      <div class="example">
-        <h3>Timed Essay Intro (Unit 6)</h3>
-        <p>"In Shakespeare’s <em>Macbeth</em>, ambition drives the tragic hero’s downfall, illustrating how unchecked desire can corrupt the human soul from within."</p>
+        <h3>Speech Outline</h3>
+        <p><strong>Ethos:</strong> Cite research credentials<br>
+           <strong>Pathos:</strong> Share a personal story<br>
+           <strong>Logos:</strong> Present statistics<br>
+           <strong>Conclusion:</strong> Call to action</p>
       </div>
     </section>
   </main>
   <footer>
-    &copy; 2025 English I Writing Resource. All rights reserved.
+    &copy; 2025 English I Writing Resource
   </footer>
 </body>
 </html>
